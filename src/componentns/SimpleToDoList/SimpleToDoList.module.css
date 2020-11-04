@@ -1,0 +1,56 @@
+.ToDoList {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(90deg, #5041b2 0%, #7969e6 100%);
+}
+
+.ToDoList h1 {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.ToDoListWrapper {
+    width: 600px;
+}
+
+.ActiveList {
+    padding: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+
+.BtnAddToList {
+    border-radius: 5px;
+    color: #fff;
+    background: linear-gradient(90deg, #397192 0%, #6fc754 100%);
+    margin-left: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.InputList {
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #397192;
+    cursor: pointer;
+}
+
+.item {
+    border: 2px solid #397192 ;
+    width: 90%;
+    margin-left: 4.8%;
+    border-radius: 5px;
+}
+
+.Elements {
+    border: 2px solid #397192 ;
+    width: 90%;
+    border-radius: 5px;
+}
